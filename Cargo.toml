@@ -6,5 +6,6 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+ipnetwork = "0.21.1"
 terraria-protocol = { git = "https://github.com/Like4Schnitzel/terry", package = "terraria-protocol", rev = "216fb45bcadbc55a02d8f77f125f2c7fb13139b2" }
-iprange = "0.6.7"
+tokio = { version = "1.43.0", features = ["full"] }
